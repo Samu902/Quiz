@@ -21,4 +21,9 @@ public class QuestionData : ScriptableObject
         this.correctAnswer = correctAnswer;
         this.wrongAnswers = wrongAnswers;
     }
+
+    public override string ToString()
+    {
+        return question + "\n" + correctAnswer + "\n" + wrongAnswers[0] + "\n" + wrongAnswers[1] + "\n" + wrongAnswers[2];
+    }
 }
