@@ -1346,7 +1346,7 @@ GameObject:
   - component: {fileID: 1400275029}
   - component: {fileID: 1400275028}
   m_Layer: 0
-  m_Name: Picker
+  m_Name: QuestionPicker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
