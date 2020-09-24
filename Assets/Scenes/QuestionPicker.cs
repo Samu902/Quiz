@@ -51,7 +51,7 @@ public class QuestionPicker : MonoBehaviour
 
         int[] wrongResults = new int[3];
         for (int i = 0; i < wrongResults.Length; i++)
-            wrongResults[i] = Random.Range(0, 100);
+            wrongResults[i] = result - (i + 1) * Random.Range(1, 5);
 
         QuestionData data = (QuestionData)ScriptableObject.CreateInstance(typeof(QuestionData));
         data.question = question;
