@@ -1,3 +1,6 @@
 -creata classe che gestisce il timer (solo logicamente, niente interfaccia grafica)
 -non sono riuscito ancora a capire se lo strumento per il merge funzioni o meno
 -"migliorato" il modo in cui vengono generate le risposte sbagliate dei numeri (ora almeno sono numeri simili alla risposta giusta)
+
+-Migliorato il metodo di generazione delle domande numeriche (il risultato della divisione viene intero per ora)
+-collegato all'interfaccia grafica le domande

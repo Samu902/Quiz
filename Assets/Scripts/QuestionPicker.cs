@@ -10,44 +10,40 @@ public enum MathOp
 public class QuestionPicker : MonoBehaviour
 {
     public static QuestionPicker Instance { get; private set; }
+    private Dictionary<MathOp, string> opToString;
 
     private void Awake()
     {
         Instance = this;
+        opToString = new Dictionary<MathOp, string>() { { MathOp.Sum, "+" }, { MathOp.Sub, "-" }, { MathOp.Mul, "*" }, { MathOp.Div, "/" } };
     }
 
     public QuestionData Generate()
     {
+        MathOp operation = (MathOp)Random.Range(0, 4);
         int firstOperand = Random.Range(0, 100);
-        int secondOperand = Random.Range(0, 100);
-
-        MathOp operation = (MathOp)Random.Range(0, 3);
-
+        int secondOperand = operation == MathOp.Div ? Random.Range(1, 100) : Random.Range(0, 100);
         int result = 0;
-        string question = "Quanto fa " + firstOperand + " ";
 
         switch (operation)
         {
             case MathOp.Sum:
                 result = firstOperand + secondOperand;
-                question += "+";
                 break;
             case MathOp.Sub:
                 result = firstOperand - secondOperand;
-                question += "-";
                 break;
             case MathOp.Mul:
                 result = firstOperand * secondOperand;
-                question += "*";
                 break;
             case MathOp.Div:
                 result = firstOperand / secondOperand;
-                question += "/";
                 break;
             default:
                 break;
         }
-        question += " " + secondOperand + "?";
+
+        string question = string.Format("Quanto fa {0} {1} {2}?", firstOperand, opToString[operation], secondOperand);
 
         int[] wrongResults = new int[3];
         for (int i = 0; i < wrongResults.Length; i++)
@@ -59,12 +55,5 @@ public class QuestionPicker : MonoBehaviour
         data.wrongAnswers = System.Array.ConvertAll(wrongResults, x => x.ToString());
 
         return data;
-        //return new QuestionData(question, result.ToString(), System.Array.ConvertAll(wrongResults, x => x.ToString()));
-    }
-
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Q))
-            Debug.Log(Generate());
     }
 }

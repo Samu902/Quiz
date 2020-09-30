@@ -1,6 +1,11 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
+public enum QuestionType
+{
+    All, Numeric, Fixed
+}
+
 [CreateAssetMenu(fileName = "New question", menuName = "Question")]
 public class QuestionData : ScriptableObject
 {
@@ -20,6 +25,11 @@ public class QuestionData : ScriptableObject
         this.question = question;
         this.correctAnswer = correctAnswer;
         this.wrongAnswers = wrongAnswers;
+    }
+
+    public string this[int index]
+    {
+        get => index >= 0 && index <= 2 ? wrongAnswers[index] : index <= 3 ? correctAnswer : question;
     }
 
     public override string ToString()
