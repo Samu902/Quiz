@@ -3,14 +3,22 @@ using UnityEngine;
 
 public enum QuestionType
 {
-    All, Numeric, Fixed
+    Any, Numeric, Premade
+}
+
+public enum MathOp
+{
+    Sum, Sub, Mul, Div
 }
 
 [CreateAssetMenu(fileName = "New question", menuName = "Question")]
 public class QuestionData : ScriptableObject
 {
+    [Multiline]
     public string question;
+    [Multiline]
     public string correctAnswer;
+    [Multiline]
     public string[] wrongAnswers;
 
     public QuestionData()

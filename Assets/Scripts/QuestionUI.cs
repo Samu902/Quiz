@@ -10,7 +10,7 @@ public class QuestionUI : MonoBehaviour
 
     public void VisualizeRandom()
     {
-        QuestionData q = QuestionPicker.Instance.Generate();
+        QuestionData q = QuestionPicker.Instance.Generate(QuestionType.Any);
         questionText.text = q.question;
 
         bool[] usedSlots = new bool[] { false, false, false, false };

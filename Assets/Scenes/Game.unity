@@ -1365,6 +1365,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f07f5e5b5b73b794fb4b8e697657a7a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  premadeQuestions:
+  - {fileID: 11400000, guid: 41ef73cd19a4e3047afb25e193d2efe7, type: 2}
 --- !u!4 &1400275029
 Transform:
   m_ObjectHideFlags: 0
