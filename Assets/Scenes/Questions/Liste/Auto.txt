@@ -1,0 +1,43 @@
+Abarth
+Ferrari
+Lamborghini
+Maserati
+FIAT
+DR
+Lancia
+Alfa Romeo
+Infiniti
+Nissan
+Toyota
+Isuzu
+Honda
+Suzuki
+Mazda
+Mitsubishi
+Fuji – Subaru
+Daihatsu
+Lexus
+Mercedes
+Mayback
+Smart
+Bmw
+Volkswagen
+Audi
+Porsche
+Opel
+Cadillac
+Chevrolet
+ Buick
+Chrysler
+Dodge
+Ford
+Jeep
+Lincoln
+Fisker Automotive
+Hummer
+Tesla
+Alpine
+Bugatti
+Citroen
+Peugeot
+Renault

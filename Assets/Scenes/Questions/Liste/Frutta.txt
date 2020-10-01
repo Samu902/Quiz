@@ -1,0 +1,319 @@
+
+aglio
+albicocca
+alchechengi
+amarena
+amarene
+anacardio
+anacardo
+ananas
+anguria
+arachidi
+arancia
+arancia rossa
+asparagi
+asparago
+asparago selvatico
+avena
+avocado
+
+babaco
+banana
+banane
+barbabietola
+basilico
+bergamotto
+bieta
+bietola
+bietola da coste
+borlotti
+borragine
+borrana
+broccoletti
+broccoli
+broccolo
+
+cachi
+caco
+cannellini
+cappero
+carambola
+carciofi
+carciofo
+cardamomo
+cardi
+cardo
+carota
+carote
+carruba
+castagna
+castagne
+cavoletto di bruxelles
+cavolfiore
+cavolfiori
+cavoli
+cavolo
+cavolo broccolo
+cavolo cappuccio
+cavolo di bruxelles
+cavolo rapa
+cavolo verza
+ceci
+cedri
+cedro
+cetriolo
+cetriolo bianco
+cherimoya
+cicerchia
+cicerchie
+cicoria
+cicoria catalogna
+cicoria o radicchio
+ciliege
+ciliegia
+cime di rapa
+cipolla
+cipolla da sottaceto
+cipolla primaverile
+cipollina
+cipolline
+cocco
+cocomeri
+cocomero
+corbezzolo
+coriandolo
+crauti
+crauto
+
+datteri
+dattero
+diospero
+durian
+durjan
+
+envidia
+envidia riccia
+envidia scarola
+erba cipollina
+erba minutina
+erba stella
+erbetta
+esperidio
+eucalipto
+
+fagioli
+fagiolini
+fagiolino
+fagiolo
+farro
+fava
+fave
+fichi
+fichi d india
+fico
+fico d india
+finferli
+finocchi
+finocchietto
+finocchietto selvatico
+finocchio
+fiori di zucca
+fiorone
+fragola
+fragole
+fragolina di bosco
+frutto della passione
+funghi
+fungo
+
+gallinella
+gelso
+ghianda
+giallona
+ginepro
+giuggiola
+goiaba
+granturco
+guacamole
+guava
+guayaba
+
+indivia
+indivia riccia
+insalata
+insalata belga
+insalata verde
+
+lampascione
+lampone
+lamponi
+lattuga
+lenticchia
+lenticchie
+licis
+lime
+limone
+limoni
+lupini
+lupino
+luppolo
+lychee
+
+maggiorana
+mandaranci
+mandarancio
+mandarini
+mandarino
+mandarino cinese
+mandorla
+mandorle
+mango
+mangustan
+mapo
+marasca
+mela
+mela annurca
+mela annurco
+mela cotogna
+mela verde
+melagrana
+melanzana
+melanzane
+mele
+melograno
+melone
+melone cantalupo
+melone verde
+meloni
+menta
+mentuccia
+mirtilli
+mirtillo
+mirto
+mora
+more
+
+nespola
+nocciola
+noce
+noce di cocco
+noce pesca
+noci
+
+oliva
+oliva nera
+oliva verde
+olive
+olive nere
+olive verdi
+
+pannocchia
+papaya
+paprika
+patata
+patata americana
+peperoncino
+peperone
+peperoni
+pera
+pere
+pesca
+pesca gialla
+pesca tabacchiera
+pesche
+pinoli
+pinolo
+piselli
+pisello
+pisello autunnale
+pisello primaverile
+pistacchi
+pistacchio
+pitaya
+pomodorino
+pomodoro
+pomodoro a terra
+pomodoro con sostegni
+pompelmi
+pompelmo
+pompelmo rosa
+porro
+potos
+prezzemolo
+prugna
+prugne
+
+rabarbaro
+radicchio
+radicchio rosso
+rafano
+rambutan
+ramolaccio
+rapa
+rapanello
+ravanelli
+ravanello
+ravizzone
+renetta
+ribes
+ricciola
+rosmarino
+rucola
+rucola selvatica
+rughetta
+
+salak
+salvia
+sambuco
+santoreggia
+sapodilla
+scalogno
+scarola
+scorzonera
+scoscia monaca
+sedano
+senape
+sivone
+soia
+soncino
+songino
+spinaci
+spinacio
+star fruit
+susina
+susine
+
+tamarindo
+tarassaco
+tarocco
+tartufi
+tartufi bianchi
+tartufi neri
+tartufo
+tartufo bianco
+tartufo nero
+tegoline
+timo
+topinambur
+travigiana
+trevisana
+trocadero
+
+uva
+uva bianca
+uva fragola
+uva rossa
+uva spina
+uva sultanina
+
+valeriana
+valerianella
+verza
+verza rossa
+visciola
+
+zapote
+zenzero
+zucca
+zucchina
+zucchino

@@ -1,0 +1,455 @@
+acquagym
+aerobica
+aeromodellismo
+agility dog
+aikido
+air hockey
+alpinismo
+apnea subacquea
+aquacycling
+aquilonismo
+aquilonismo acrobatico
+arrampicata
+arrampicata libera
+arrampicata sportiva
+arte marziale
+atletica
+atletica leggera
+automobilismo
+
+badminton
+balconing
+balle pelote
+ballo
+ballon au poing
+bandy
+base jumping
+baseball
+baseball per ciechi
+bashi
+basket
+basketball
+basquette
+beach basket
+beach handball
+beach rugby
+beach soccer
+beach tennis
+beach touch
+beach ultimate
+beach volley
+biathlon
+bike polo
+biliardino
+biliardo
+biliardo all italiana
+biliardo americano
+blitzball
+bmx
+bob
+bocce
+boccette
+boccia su strada
+bodybuilding
+boomerang
+bossaball
+bowling
+boxe
+boxing
+braccio di ferro
+bridge
+broomball
+bungee jumping
+buzkashi
+
+caccia
+calcetto
+calcio
+calcio a 5
+calcio a 8
+calcio a cinque
+calcio balilla
+calcio fiorentino
+calcio gaelico
+calcio in carrozzina
+calcio tennis
+canoa
+canoa alto corso
+canoa discesa
+canoa polo
+canoismo
+canottaggio
+capoeira
+carpfishing
+carrom
+chilometro lanciato
+ciclismo
+ciclismo su pista
+ciclismo su strada
+ciclocross
+corsa campestre
+cricket
+croquet
+culturismo
+curling
+curling in carrozzina
+
+danza acrobatica
+danza classica
+danza sportiva
+danza su ghiaccio
+decathlon
+deltaplanismo
+disc dog
+dodgeball
+double dutch
+dragon boat
+dragonboat
+dressage
+drifting
+electrocutionist
+endurance equestre
+entrofuoribordo
+eptathlon
+equitazione
+equitazione americana
+escala i corda
+escursionismo
+eskimo
+
+f1
+fioretto
+fistball
+fit box
+fitness
+flag football
+floorball
+flyak
+flyball
+footbag
+football
+football a 8
+football americano
+football australiano
+football canadese
+footvolley
+formula 1
+formula uno
+formula1
+francesca fogar
+frare
+freccette
+free climbing
+free running
+free solo
+freeride
+freestyle
+frisbee
+frisbee freestyle
+frontenis
+fronton
+fronton internazionale
+full contact
+fuoribordo
+
+gaelic football
+galotxa
+galotxetes
+getto del peso
+ginnastica
+ginnastica acrobatica
+ginnastica aerobica
+ginnastica artistica
+ginnastica ritmica
+giochi del mare
+gioco internazionale
+goalball
+golf
+golf su pista
+goriziana
+gym tennis
+
+ice climbing
+ice skating
+immersione
+immersione in apnea
+immersione in grotta
+indiaca
+indoor cycling
+indoor lacrosse
+inter crosse
+ippica
+
+lacrosse
+lancio del disco
+lancio del giavellotto
+lancio del martello
+lancio del peso
+lancio del vortex
+lazo
+lippa
+liu bo
+llargues
+lotta
+lotta greco romana
+lotta grecoromana
+lotta libera
+lotta svizzera
+lottatore di sumo
+
+madball
+majorette
+maratona
+marcia
+mariglia
+medico legale
+minigolf
+mondioring
+monta da lavoro
+moto gp
+motociclismo
+motocross
+motocross acrobatico
+motonautica
+motorball
+mountain bike
+muay thai
+
+netball
+ninjutsu
+nippon kempo
+nordic walking
+nuoto
+nuoto di salvataggio
+nuoto pinnato
+nuoto sincronizzato
+
+obedience
+offshore
+oina
+orientamento
+orienteering
+
+paddle tennis
+paddleball
+padellone
+padovanella
+paintball
+paletta
+palla a sfratto
+palla eh
+palla eh
+palla elastica
+palla valenziana
+pallacanestro
+pallacesto
+pallacorda
+pallamano
+pallamano basca
+pallamano frisone
+pallanuoto
+pallapugno
+pallapugno leggera
+pallastrada
+pallavolo
+pallina
+palloncina
+pallone
+pallone a pugno
+pallone col bracciale
+pallone elastico
+pallonetto ligure
+pantalera
+paracadutismo
+paracadutismo estremo
+paraciclismo
+paragliding
+parapendio
+park
+parkour
+passata
+pattinaggio
+pattinaggio a rotelle
+pattinaggio artistico
+pattinaggio corsa
+pattinaggio di figura
+pelota a mano
+pelota a paleta
+pelota basca
+pelota italiana
+pentathlon
+pentathlon moderno
+pesapallo
+pesca
+pesca al colpo
+pesca all alborella
+pesca in apnea
+pesca sportiva
+pesca subacquea
+pesistica
+petanque
+picigin
+pickleball
+pilates
+pilota valenciana
+ping pong
+pingpong
+platform tennis
+podismo
+poker
+poker sportivo
+polo
+pony games
+powerlifting
+pugilato
+
+qianball
+quidditch
+
+racquetball
+racquets
+rafting
+rally
+rally obedience
+raspall
+reining
+rock and roll
+rock climbing
+rodeo
+roping
+roque
+roverino
+rubber bridge
+rugby
+rugby a 13
+rugby a 15
+rugby a 7
+rugby a 9
+rugby subacqueo
+ruzzola
+
+sa strumpa
+salto con gli sci
+salto con l asta
+salto in alto
+salto in lungo
+salto ostacoli
+salto triplo
+savate
+scacchi
+scherma
+scherma tradizionale
+schlagball
+sci
+sci acquatico
+sci alpinismo
+sci alpino
+sci d erba
+sci di fondo
+sci nautico
+sci nordico
+sci orientamento
+sciabola
+scoutball
+scuba diving
+sella italiano
+selle francais
+sepak takraw
+shinty
+short track
+sise
+skateboarding
+skating
+skeleton
+slamball
+sleddog
+sledge hockey
+sliding stop
+slittino
+snorkeling
+snowboard
+snowboarding
+soccer
+softair
+softball
+sollevamento pesi
+spada
+spaola
+speed ball
+speed climb
+speed down
+spinning
+sport nautici
+squash
+squash tennis
+stock sport
+street hockey
+street soccer
+streetball
+streethockey
+streetluge
+sumo
+surf
+surf a vela
+swimtrekking
+
+tae kwon do
+taekwondo
+tag rugby
+takurt
+tambeach
+tambumuro
+tamburellista
+tamburello
+tamburello a 3
+tamburello a muro
+tambutennis
+tavola a vela
+tchoukball
+tennis
+tennis da tavolo
+tennis in carrozzina
+tennis polo
+tennis tavolo
+tiro a segno
+tiro a volo
+tiro al piattello
+tiro al volo
+tiro alla fune
+tiro con l arco
+tiro d azione
+tiro del dardo
+tlachtli
+torball
+torneo tenkaichi
+torrentismo
+touch football
+touch rugby
+touch rugby irb
+traina
+trampolino
+trekking
+trial bike
+triathlon
+triple crown
+trotto
+tsan
+tuffi
+twirling
+
+ulama
+ultimate
+ultimate fighting
+unihockey
+
+vale tudo
+valetudo
+vela
+voga in piedi
+volano
+volata
+volley
+volley ecuadoriano
+volleyball
+volo a vela
+volteggio a cavallo

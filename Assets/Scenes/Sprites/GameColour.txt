@@ -1,0 +1,4 @@
+BluChiaro #01405AFF
+BluScuro #001118FF
+ArancioChiaro #FEAF3DFF
+ArancioScuro #C3190AFF
