@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Roboto-Bold SDF Material
   m_Shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords:
   m_LightmapFlags: 5
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -114,7 +114,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
   m_Name: Roboto-Bold SDF
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   hashCode: -635320526
   material: {fileID: 2164040}
   materialHashCode: -1838732846
@@ -1369,6 +1369,18 @@ MonoBehaviour:
     m_Unicode: 89
     m_GlyphIndex: 61
     m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 88
+    m_GlyphIndex: 60
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 74
+    m_GlyphIndex: 46
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 89
+    m_GlyphIndex: 61
+    m_Scale: 1
   m_AtlasTextures:
   - {fileID: 28204114720316640}
   m_AtlasTextureIndex: 0
@@ -1775,10 +1787,6 @@ MonoBehaviour:
     m_Y: 236
     m_Width: 18
     m_Height: 4
-  - m_X: 597
-    m_Y: 240
-    m_Width: 15
-    m_Height: 783
   - m_X: 457
     m_Y: 251
     m_Width: 13
@@ -1791,10 +1799,6 @@ MonoBehaviour:
     m_Y: 406
     m_Width: 598
     m_Height: 617
-  - m_X: 490
-    m_Y: 325
-    m_Width: 533
-    m_Height: 698
   - m_X: 490
     m_Y: 321
     m_Width: 43
@@ -1902,7 +1906,7 @@ MonoBehaviour:
   fallbackFontAssets: []
   m_FallbackFontAssetTable: []
   m_CreationSettings:
-    sourceFontFileName: 
+    sourceFontFileName:
     sourceFontFileGUID: 4beb055f07aaff244873dec698d0363e
     pointSizeSamplingMode: 1
     pointSize: 90
@@ -1913,7 +1917,7 @@ MonoBehaviour:
     characterSetSelectionMode: 6
     characterSequence: 20-7E,A0,200B,2026
     referencedFontAssetGUID: 5302535af1044152a457ed104f1f4b91
-    referencedTextAssetGUID: 
+    referencedTextAssetGUID:
     fontStyle: 0
     fontStyleModifier: 0
     renderMode: 4165
@@ -2010,4 +2014,4 @@ Texture2D:
     serializedVersion: 2
     offset: 0
     size: 0
-    path: 
+    path:
