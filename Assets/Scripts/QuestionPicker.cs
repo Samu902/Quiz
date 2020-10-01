@@ -13,7 +13,7 @@ public class QuestionPicker : MonoBehaviour
     private void Awake()
     {
         Instance = this;
-        mathOpToString = new Dictionary<MathOp, string>() { { MathOp.Sum, "+" }, { MathOp.Sub, "-" }, { MathOp.Mul, "*" }, { MathOp.Div, "/" } };
+        mathOpToString = new Dictionary<MathOp, string>() { { MathOp.Sum, "+" }, { MathOp.Sub, "-" }, { MathOp.Mul, "×" }, { MathOp.Div, "÷" } };
     }
 
     public QuestionData Generate(QuestionType type)
@@ -28,33 +28,43 @@ public class QuestionPicker : MonoBehaviour
         switch (type)
         {
             case QuestionType.Numeric:
+                int firstOperand, secondOperand, result;
                 MathOp operation = (MathOp)Random.Range(0, 4);
-                int firstOperand = Random.Range(-20, 21);
-                int secondOperand = operation == MathOp.Div ? Random.Range(1, 100) : Random.Range(0, 100);
-                int result = 0;
 
                 switch (operation)
                 {
                     case MathOp.Sum:
+                        firstOperand = Random.Range(0, 51);
+                        secondOperand = Random.Range(0, 51);
                         result = firstOperand + secondOperand;
                         break;
                     case MathOp.Sub:
+                        firstOperand = Random.Range(0, 51);
+                        secondOperand = Random.Range(0, 51);
                         result = firstOperand - secondOperand;
                         break;
                     case MathOp.Mul:
+                        firstOperand = Random.Range(0, 21);
+                        secondOperand = Random.Range(0, 21);
                         result = firstOperand * secondOperand;
                         break;
                     case MathOp.Div:
+                        firstOperand = Random.Range(0, 21);
+                        do
+                            secondOperand = Random.Range(1, 21);
+                        while (firstOperand % secondOperand != 0);
                         result = firstOperand / secondOperand;
                         break;
                     default:
+                        firstOperand = secondOperand = result = 0;
                         break;
                 }
 
                 question = string.Format("Quanto fa {0} {1} {2}?", firstOperand, mathOpToString[operation], secondOperand);
                 correctAnswer = result.ToString();
                 for (int i = 0; i < 3; i++)
-                    wrongAnswers[i] = (result - (i + 1) * Random.Range(1, 5)).ToString();
+                    wrongAnswers[i] = (result - (i + 1) * Random.Range(1, 8)).ToString();
+
                 break;
             case QuestionType.Premade:
                 QuestionData randomQ = premadeQuestions[Random.Range(0, premadeQuestions.Count)];

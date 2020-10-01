@@ -182,8 +182,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Bianco
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -207,8 +207,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 22
-  m_fontSizeBase: 22
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -413,8 +413,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 151}
-  m_SizeDelta: {x: 700, y: 100}
+  m_AnchoredPosition: {x: 0, y: 175}
+  m_SizeDelta: {x: 700, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &507592837
 MonoBehaviour:
@@ -681,7 +681,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &860584065
 GameObject:
@@ -742,8 +742,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Bianco
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -767,13 +767,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 22
-  m_fontSizeBase: 22
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 16
+  m_fontStyle: 17
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -848,7 +848,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 995695678}
-  m_Father: {fileID: 1163393282}
+  m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1076,10 +1076,9 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 919223298}
+  m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1231907588
 GameObject:
@@ -1140,8 +1139,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Di che colore \xE8 il cavallo bianco di napoleone?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1165,8 +1164,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1366,7 +1365,39 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   premadeQuestions:
+  - {fileID: 11400000, guid: 52654442319822147ba90049ac6099d5, type: 2}
+  - {fileID: 11400000, guid: 6751b03581e072a41b0292e558ec4c0e, type: 2}
+  - {fileID: 11400000, guid: 8be1f43c38cd0a049bc2f372524ac100, type: 2}
+  - {fileID: 11400000, guid: 2665470cf9f44e54c8fc3ebad177fe51, type: 2}
+  - {fileID: 11400000, guid: 113ff5ac76f05d0479e455438f66200b, type: 2}
+  - {fileID: 11400000, guid: bfa7c16e9a251ae4faadd97e04df4db2, type: 2}
+  - {fileID: 11400000, guid: edeab58cc9a6df040b1e36c8b077db91, type: 2}
+  - {fileID: 11400000, guid: a499c3ad3400b794aa5c2601881f6275, type: 2}
+  - {fileID: 11400000, guid: fda02d68048d55845877d1820a001580, type: 2}
+  - {fileID: 11400000, guid: 4fa3357948907eb408100e5bda17e7fa, type: 2}
+  - {fileID: 11400000, guid: 93996ff58ef31c244b48f4902d1ddbb6, type: 2}
+  - {fileID: 11400000, guid: 23ca9c2b7ddab4e40b14416ec582540f, type: 2}
+  - {fileID: 11400000, guid: 048b8cda44d2c1f4b8a2833d9babb8b6, type: 2}
+  - {fileID: 11400000, guid: dfd0aa46618cc54419c2248d440ccf36, type: 2}
+  - {fileID: 11400000, guid: 60ea03f63ba85564a8d495a025b8f392, type: 2}
+  - {fileID: 11400000, guid: 04d16dea41d4fe243b4d13236fb6369e, type: 2}
+  - {fileID: 11400000, guid: a6e5327653660bb49996f195d9f418b8, type: 2}
+  - {fileID: 11400000, guid: e3808ac737bfac241a6ceb7db301f289, type: 2}
+  - {fileID: 11400000, guid: 8c17bfec9eafa5d47a1eb6a7d6a58ddc, type: 2}
+  - {fileID: 11400000, guid: b244af69e68e6a74aa82c4620d3a4032, type: 2}
+  - {fileID: 11400000, guid: 558ec27f16e241d42a36693b0977f62e, type: 2}
+  - {fileID: 11400000, guid: 73c21f090419aee40ad1c5d682b9a231, type: 2}
+  - {fileID: 11400000, guid: 6aec8bbffb8d20b46a0fa01a1d2a7685, type: 2}
+  - {fileID: 11400000, guid: c30706a08f76904478bb03c5c9a3810c, type: 2}
+  - {fileID: 11400000, guid: 9c19fcbd1d8229448b5d6ad56dae1da4, type: 2}
+  - {fileID: 11400000, guid: 77cab2e7603dcd145aead48017e1f14a, type: 2}
+  - {fileID: 11400000, guid: 55fc46e4bc5652543ba902595a468cef, type: 2}
+  - {fileID: 11400000, guid: cbca2ff3d7ed5a04b93e69985de33132, type: 2}
+  - {fileID: 11400000, guid: edaa175627b93264c8c985a7020044a1, type: 2}
+  - {fileID: 11400000, guid: 1899b590868f5a544b71dbefdd7c23a8, type: 2}
   - {fileID: 11400000, guid: 41ef73cd19a4e3047afb25e193d2efe7, type: 2}
+  - {fileID: 11400000, guid: 01ca1b0bf415e504f980b371e7d0423d, type: 2}
+  - {fileID: 11400000, guid: 2f1e02d2c903f3d4b8cc407c5eb6d187, type: 2}
 --- !u!4 &1400275029
 Transform:
   m_ObjectHideFlags: 0
@@ -1379,7 +1410,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1400275030
 MonoBehaviour:
@@ -1458,8 +1489,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Bianco
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1483,8 +1514,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 22
-  m_fontSizeBase: 22
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1737,8 +1768,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1846,8 +1877,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Bianco
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1871,8 +1902,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 22
-  m_fontSizeBase: 22
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
