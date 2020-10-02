@@ -3,12 +3,17 @@ using UnityEngine;
 
 public enum QuestionType
 {
-    Any, Numeric, Premade
+    Any, Numeric, Premade, ByList
 }
 
 public enum MathOp
 {
     Sum, Sub, Mul, Div
+}
+
+public enum ListType
+{
+    Animali, Auto, Frutta, Verdura, Sport
 }
 
 [CreateAssetMenu(fileName = "New question", menuName = "Question")]

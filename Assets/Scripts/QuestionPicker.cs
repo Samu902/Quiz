@@ -6,14 +6,28 @@ public class QuestionPicker : MonoBehaviour
 {
     public static QuestionPicker Instance { get; private set; }
 
+    private Dictionary<MathOp, string> mathOpToString;
+
     public List<QuestionData> premadeQuestions;
 
-    private Dictionary<MathOp, string> mathOpToString;
+    public List<TextAsset> listFiles;
+    private Dictionary<ListType, List<string>> itemLists;
 
     private void Awake()
     {
         Instance = this;
+
         mathOpToString = new Dictionary<MathOp, string>() { { MathOp.Sum, "+" }, { MathOp.Sub, "-" }, { MathOp.Mul, "×" }, { MathOp.Div, "÷" } };
+
+        itemLists = new Dictionary<ListType, List<string>>();
+        for (int i = 0; i < listFiles.Count; i++)
+        {
+            itemLists[(ListType)i] = new List<string>(listFiles[i].text.Split(new[] { '\r', '\n' }, System.StringSplitOptions.RemoveEmptyEntries));
+            foreach (var item in itemLists[(ListType)i])
+            {
+                Debug.Log(item);
+            }
+        }
     }
 
     public QuestionData Generate(QuestionType type)
@@ -23,7 +37,7 @@ public class QuestionPicker : MonoBehaviour
         string[] wrongAnswers = new string[3];
 
         if (type == QuestionType.Any)
-            type = (QuestionType)Random.Range(1, 3);
+            type = (QuestionType)Random.Range(1, System.Enum.GetNames(typeof(QuestionType)).Length);
 
         switch (type)
         {
@@ -71,8 +85,21 @@ public class QuestionPicker : MonoBehaviour
                 question = randomQ.question;
                 correctAnswer = randomQ.correctAnswer;
                 wrongAnswers = randomQ.wrongAnswers;
+
+                break;
+            case QuestionType.ByList:
+                ListType category = (ListType)Random.Range(0, itemLists.Count);
+                int randomIndex = Random.Range(0, itemLists[category].Count);
+                question = string.Format("Quali di questi è un {0}?", itemLists[category][randomIndex]);
+                correctAnswer = itemLists[category][randomIndex];
+
+                //do
+                //    qIndex = Random.Range(0, answerTexts.Count);
+                //while (usedSlots[qIndex]);
+                //sono qui
                 break;
             default:
+                Debug.LogError("This question type doesn't exist");
                 break;
         }
 

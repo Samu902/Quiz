@@ -8,9 +8,9 @@ public class QuestionUI : MonoBehaviour
     public TMP_Text questionText;
     public List<TMP_Text> answerTexts;
 
-    public void VisualizeRandom()
+    public void Visualize(QuestionType type)
     {
-        QuestionData q = QuestionPicker.Instance.Generate(QuestionType.Any);
+        QuestionData q = QuestionPicker.Instance.Generate(type);
         questionText.text = q.question;
 
         bool[] usedSlots = new bool[] { false, false, false, false };
@@ -28,6 +28,6 @@ public class QuestionUI : MonoBehaviour
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Q))
-            VisualizeRandom();
+            Visualize(QuestionType.Any);
     }
 }
