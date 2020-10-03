@@ -8,6 +8,9 @@ public class QuestionUI : MonoBehaviour
     public TMP_Text questionText;
     public List<TMP_Text> answerTexts;
 
+    [Header("Debug variable"), Tooltip("Change it to try different types of question")]
+    public QuestionType generatedQuestionType;
+
     public void Visualize(QuestionType type)
     {
         QuestionData q = QuestionPicker.Instance.Generate(type);
@@ -28,6 +31,6 @@ public class QuestionUI : MonoBehaviour
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Q))
-            Visualize(QuestionType.Any);
+            Visualize(generatedQuestionType);
     }
 }
