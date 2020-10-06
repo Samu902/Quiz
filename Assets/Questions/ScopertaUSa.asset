@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a59ebabef1125424f849f20af79da566, type: 3}
   m_Name: ScopertaUSa
   m_EditorClassIdentifier: 
-  question: "Quando \xE8 stat scoperta l'America?"
+  question: "Quando \xE8 stata scoperta l'America?"
   correctAnswer: 1492
   wrongAnswers:
   - 1000

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a59ebabef1125424f849f20af79da566, type: 3}
   m_Name: jukebox
   m_EditorClassIdentifier: 
-  question: Per cosa si usa una un jukebox?
+  question: Per cosa si usa un jukebox?
   correctAnswer: Ascoltare la musica
   wrongAnswers:
   - "Produrre la musica\t"
