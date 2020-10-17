@@ -11,6 +11,8 @@ public class QuestionUI : MonoBehaviour
     [Header("Debug variable"), Tooltip("Change it to try different types of question")]
     public QuestionType generatedQuestionType;
 
+    public Timer timer;
+
     public void Visualize(QuestionType type)
     {
         QuestionData q = QuestionPicker.Instance.Generate(type);
@@ -32,5 +34,8 @@ public class QuestionUI : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Q))
             Visualize(generatedQuestionType);
+
+        if (Input.GetKeyDown(KeyCode.T))
+            timer.StartTimer(Random.Range(2f, 10f));
     }
 }
