@@ -13,10 +13,14 @@ public class Timer : MonoBehaviour
     public UnityEvent OnTimerEnd;
     public UnityEvent OnTimerReset;
 
+    private TMPro.TMP_Text uiText;
+
     private void Start()
     {
         RemainingTime = 0;
         IsPaused = true;
+
+        uiText = GetComponentInChildren<TMPro.TMP_Text>();
     }
 
     private IEnumerator WaitTime()
@@ -26,6 +30,7 @@ public class Timer : MonoBehaviour
             if(!IsPaused)
             {
                 RemainingTime -= Time.deltaTime;
+                uiText.text = RemainingTime.ToString("F1") + " s";
                 if (RemainingTime <= 0)
                 {
                     OnTimerEnd.Invoke();
@@ -39,7 +44,7 @@ public class Timer : MonoBehaviour
     public void StartTimer(float time)
     {
         RemainingTime = time;
-        IsPaused = true;
+        IsPaused = false;
         OnTimerStart.Invoke();
         StartCoroutine(WaitTime());
     }
