@@ -3,7 +3,7 @@ using UnityEngine;
 
 public enum QuestionType
 {
-    Any, Numeric, Premade, ByList
+    Any, Numeric, Premade, ByList, ByImage
 }
 
 public enum MathOp
@@ -25,6 +25,8 @@ public class QuestionData : ScriptableObject
     public string correctAnswer;
     [Multiline]
     public string[] wrongAnswers;
+    [HideInInspector]
+    public Sprite questionSprite;
 
     public QuestionData()
     {

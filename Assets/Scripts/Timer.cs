@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using TMPro;
 
 public class Timer : MonoBehaviour
 {
@@ -13,14 +14,14 @@ public class Timer : MonoBehaviour
     public UnityEvent OnTimerEnd;
     public UnityEvent OnTimerReset;
 
-    private TMPro.TMP_Text uiText;
+    private TMP_Text uiText;
 
     private void Start()
     {
         RemainingTime = 0;
         IsPaused = true;
 
-        uiText = GetComponentInChildren<TMPro.TMP_Text>();
+        uiText = GetComponentInChildren<TMP_Text>();
     }
 
     private IEnumerator WaitTime()

@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public class QuestionUI : MonoBehaviour
 {
     public TMP_Text questionText;
+    public Image questionImage;
     public List<TMP_Text> answerTexts;
 
     [Header("Debug variable"), Tooltip("Change it to try different types of question")]
@@ -27,6 +29,17 @@ public class QuestionUI : MonoBehaviour
             while (usedSlots[qIndex]);
             usedSlots[qIndex] = true;
             answerTexts[i].text = q[qIndex];
+        }
+
+        if(q.questionSprite != null)    //type da Any è diventato ByImage
+        {
+            questionText.text = "";
+            questionImage.color = Color.white;
+            questionImage.sprite = q.questionSprite;
+        }
+        else
+        {
+            questionImage.color = new Color(0, 0, 0, 0);
         }
     }
 
