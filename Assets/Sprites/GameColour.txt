@@ -1,4 +1,4 @@
+BluChiaroBG A6DAEF
+BluScuroBG #001118FF
 BluChiaro #01405AFF
-BluScuro #001118FF
-ArancioChiaro #FEAF3DFF
-ArancioScuro #C3190AFF
+BluScuroScritte #00ABE0FF
