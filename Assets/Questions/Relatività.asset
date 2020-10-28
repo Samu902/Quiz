@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a59ebabef1125424f849f20af79da566, type: 3}
-  m_Name: "Relativit\xE0"
+  m_Name: "Relativita\u0300"
   m_EditorClassIdentifier: 
   question: "Chi invent\xF2 la teoria della relativit\xE0?"
   correctAnswer: Albert Einstein
@@ -18,3 +18,4 @@ MonoBehaviour:
   - Enrico Fermi
   - Mahatma Gandhi
   - Adolf Hitler
+  questionSprite: {fileID: 0}
