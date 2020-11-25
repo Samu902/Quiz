@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a59ebabef1125424f849f20af79da566, type: 3}
-  m_Name: "Curiosita\u0300Sumo"
+  m_Name: "Curiosit\xE0Sumo"
   m_EditorClassIdentifier: 
   question: "In Giappone cosa \xE8 considerato un segno di buon auspicio? "
   correctAnswer: Quando un lottatore di sumo spaventa un bambino e lo fa piangere
