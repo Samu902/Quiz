@@ -10,10 +10,10 @@ public class QuestionUI : MonoBehaviour
     public Image questionImage;
     public List<TMP_Text> answerTexts;
 
-    [Header("Debug variable"), Tooltip("Change it to try different types of question")]
-    public QuestionType generatedQuestionType;
+    //[Header("Debug variable"), Tooltip("Change it to try different types of question")]
+    //public QuestionType generatedQuestionType;
 
-    public Timer timer;
+    //public Timer timer;
 
     public void Visualize(QuestionType type)
     {
@@ -43,12 +43,12 @@ public class QuestionUI : MonoBehaviour
         }
     }
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Q))
-            Visualize(generatedQuestionType);
+    //private void Update()
+    //{
+    //    if (Input.GetKeyDown(KeyCode.Q))
+    //        Visualize(generatedQuestionType);
 
-        if (Input.GetKeyDown(KeyCode.T))
-            timer.StartTimer(Random.Range(2f, 10f));
-    }
+    //    if (Input.GetKeyDown(KeyCode.T))
+    //        timer.StartTimer(Random.Range(2f, 10f));
+    //}
 }
