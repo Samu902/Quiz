@@ -16,7 +16,7 @@ public class Timer : MonoBehaviour
 
     private TMP_Text uiText;
 
-    private void Start()
+    private void Awake()
     {
         RemainingTime = 0;
         IsPaused = true;
