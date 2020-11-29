@@ -8,7 +8,8 @@ public class GameManager : MonoBehaviour
     public GameObject questionPanel;
     public GameObject minigamePanel;
 
-    public Timer timer;
+    public Timer questionTimer;
+    public Timer gameTimer;
     public QuestionUI questionUI;
     private bool timerFinished;
     private bool buttonPressed;
@@ -30,7 +31,7 @@ public class GameManager : MonoBehaviour
 
             alreadyDisplayed.Add(currentType);
 
-            timer.StartTimer(10);
+            questionTimer.StartTimer(10);
             questionUI.Visualize(currentType);
 
             while (true)
@@ -48,7 +49,7 @@ public class GameManager : MonoBehaviour
         questionPanel.SetActive(false);
         minigamePanel.SetActive(true);
 
-        timer.StartTimer(30);
+        gameTimer.StartTimer(30);
         //questionUI.Visualize(currentType); //metodo analogo per minigioco
         while (true)
         {

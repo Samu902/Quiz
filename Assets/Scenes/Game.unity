@@ -928,8 +928,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1447563614}
   - {fileID: 2023115607}
+  - {fileID: 1447563614}
   - {fileID: 2124221548}
   - {fileID: 806271339}
   - {fileID: 1349653861}
@@ -1885,7 +1885,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &995695678
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2259,7 +2259,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1285235895
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2862,7 +2862,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 454274089}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3698,7 +3698,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questionPanel: {fileID: 995695677}
   minigamePanel: {fileID: 1285235894}
-  timer: {fileID: 1976957724}
+  questionTimer: {fileID: 1976957724}
+  gameTimer: {fileID: 2023115608}
   questionUI: {fileID: 1941448534}
 --- !u!114 &1941448533
 MonoBehaviour:
@@ -3943,7 +3944,7 @@ GameObject:
   - component: {fileID: 1976957722}
   - component: {fileID: 1976957724}
   m_Layer: 5
-  m_Name: Timer
+  m_Name: QuestionTimer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4056,7 +4057,7 @@ GameObject:
   - component: {fileID: 2023115609}
   - component: {fileID: 2023115608}
   m_Layer: 5
-  m_Name: Timer
+  m_Name: GameTimer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4075,7 +4076,7 @@ RectTransform:
   m_Children:
   - {fileID: 1699459666}
   m_Father: {fileID: 454274089}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
