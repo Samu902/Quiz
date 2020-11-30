@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a59ebabef1125424f849f20af79da566, type: 3}
-  m_Name: Triplice Intesa
+  m_Name: tripliceIntesa
   m_EditorClassIdentifier: 
   question: Che paesi componevano la Triplice Intesa?
   correctAnswer: La Gran Bretagna, la Francia e la Russia
@@ -18,3 +18,4 @@ MonoBehaviour:
   - La Gran Bretagna, l'Italia e la Russia
   - La Gran Bretagna, la Francia e la Germania
   - Il Giappone, la Francia e la Russia
+  questionSprite: {fileID: 0}
