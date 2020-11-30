@@ -22,16 +22,16 @@ public class GameManager : MonoBehaviour
 
         //prima,seconda e terza domanda: 10s di cronometro o risposta
         List<QuestionType> alreadyDisplayed = new List<QuestionType>();
-        for (int i = 0; i < 3; i++)
+        for (int i = 0; i < 50; i++)
         {
-            QuestionType currentType;
-            do
-                currentType = (QuestionType)Random.Range(1, System.Enum.GetNames(typeof(QuestionType)).Length);
-            while (alreadyDisplayed.Contains(currentType));
+            QuestionType currentType = QuestionType.ByImage;
+            //do
+            //    currentType = (QuestionType)Random.Range(1, System.Enum.GetNames(typeof(QuestionType)).Length);
+            //while (alreadyDisplayed.Contains(currentType));
 
             alreadyDisplayed.Add(currentType);
 
-            questionTimer.StartTimer(10);
+            questionTimer.StartTimer(2);
             questionUI.Visualize(currentType);
 
             while (true)
