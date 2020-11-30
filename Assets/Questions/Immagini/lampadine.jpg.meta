@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD:Assets/Questions/Immagini/Superman.jpg.meta
-guid: d6fafc0549f8fda4ca30446bd14a47d3
-=======
-guid: 9251bb656a4f78c43907232a706446ac
->>>>>>> 8aa8c7c5fbf52d8282bf2bc1a246f6aec5be179b:Assets/Questions/Immagini/alpaca.jpg.meta
+guid: ac588fe2946cbde4c8df0692d94a10f0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
