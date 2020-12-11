@@ -24,14 +24,17 @@ public class GameManager : MonoBehaviour
         List<QuestionType> alreadyDisplayed = new List<QuestionType>();
         for (int i = 0; i < 50; i++)
         {
-            QuestionType currentType = QuestionType.ByImage;
-            //do
-            //    currentType = (QuestionType)Random.Range(1, System.Enum.GetNames(typeof(QuestionType)).Length);
-            //while (alreadyDisplayed.Contains(currentType));
+            QuestionType currentType;
+            do
+                currentType = (QuestionType)Random.Range(1, System.Enum.GetNames(typeof(QuestionType)).Length);
+            while (alreadyDisplayed.Contains(currentType));
 
             alreadyDisplayed.Add(currentType);
 
-            questionTimer.StartTimer(2);
+            if (alreadyDisplayed.Count == System.Enum.GetNames(typeof(QuestionType)).Length - 1)        //test line
+                alreadyDisplayed.Clear();
+
+            questionTimer.StartTimer(10);
             questionUI.Visualize(currentType);
 
             while (true)
@@ -44,6 +47,9 @@ public class GameManager : MonoBehaviour
                 }
                 yield return null;
             }
+            questionTimer.ToggleTimer();
+            yield return new WaitForSeconds(1f);
+            questionTimer.ResetTimer();
         }
         //minigioco: 30s di cronometro/vittoria
         questionPanel.SetActive(false);
@@ -66,9 +72,10 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("End");
     }
 
-    public void OnAnswerButtonClick()
+    public void OnAnswerButtonClick(Animator button)
     {
         buttonPressed = true;
+        button.SetTrigger("Correct");
     }
 
     public void OnTimerFinished()

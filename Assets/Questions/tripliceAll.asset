@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: tripliceAll
   m_EditorClassIdentifier: 
   question: Che paesi componevano la Triplice Alleanza?
-  correctAnswer: La Germania, Austria-Ungheria e l'Italia
+  correctAnswer: Germania, Austria-Ungheria e Italia
   wrongAnswers:
-  - La Germania, la Russia e l'Italia
-  - La Francia, Austria-Ungheria e l'Italia
-  - La Germania, Austria-Ungheria e La Gran Bretagna
+  - Germania, Russia e Italia
+  - Francia, Austria-Ungheria e Italia
+  - Germania, Austria-Ungheria e Gran Bretagna
   questionSprite: {fileID: 0}

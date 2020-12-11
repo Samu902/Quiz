@@ -58,6 +58,7 @@ public class Timer : MonoBehaviour
 
     public void ResetTimer()
     {
+        StopCoroutine(WaitTime());
         RemainingTime = 0;
         IsPaused = true;
         OnTimerReset.Invoke();
