@@ -14,6 +14,8 @@ public class GameManager : MonoBehaviour
     private bool timerFinished;
     private bool buttonPressed;
 
+    public List<Minigame> minigames;
+
     private IEnumerator Start()
     {
         //Inizio sfida
@@ -22,7 +24,7 @@ public class GameManager : MonoBehaviour
 
         //prima,seconda e terza domanda: 10s di cronometro o risposta
         List<QuestionType> alreadyDisplayed = new List<QuestionType>();
-        for (int i = 0; i < 50; i++)
+        for (int i = 0; i < 3; i++)
         {
             QuestionType currentType;
             do
@@ -31,8 +33,8 @@ public class GameManager : MonoBehaviour
 
             alreadyDisplayed.Add(currentType);
 
-            if (alreadyDisplayed.Count == System.Enum.GetNames(typeof(QuestionType)).Length - 1)        //test line
-                alreadyDisplayed.Clear();
+            //if (alreadyDisplayed.Count == System.Enum.GetNames(typeof(QuestionType)).Length - 1)        //test line
+            //    alreadyDisplayed.Clear();
 
             questionTimer.StartTimer(10);
             questionUI.Visualize(currentType);
@@ -56,7 +58,8 @@ public class GameManager : MonoBehaviour
         minigamePanel.SetActive(true);
 
         gameTimer.StartTimer(30);
-        //questionUI.Visualize(currentType); //metodo analogo per minigioco
+        Minigame game = minigames[Random.Range(0, minigames.Count)];
+        game.StartMinigame(30);
         while (true)
         {
             if (timerFinished || buttonPressed)
